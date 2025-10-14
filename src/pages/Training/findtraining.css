@@ -1,0 +1,114 @@
+.findtraining_box {
+  border-radius: 14px;
+  width: 100%;
+  height: 836px;
+  background: #fff;
+}
+
+.findtraining_box_title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: #000;
+  margin: 16px 24px;
+}
+
+.findtraining_input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.findtraining_input label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+.findtraining_select {
+  width: 184px;
+  height: 36px;
+}
+
+.find_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 25px;
+}
+
+.findtraining_box_inputs {
+  margin: 24px;
+}
+
+.period {
+  margin-top: 30px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.findradio {
+  display: flex;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.radio_item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.radio_item span{
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.01em;
+  color: #000;  
+}
+
+.date {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top: 24px;
+}
+
+.find_checkbox {
+  margin-top: 35px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.find_checkbox span {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+@media screen and (max-width: 640px) {
+  .period {
+    flex-direction: column;
+    align-items: center;
+  }
+  .find_wrapper {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .date {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .find_checkbox {
+    display: flex;
+    justify-content: center;
+  }
+}

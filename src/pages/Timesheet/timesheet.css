@@ -1,0 +1,244 @@
+.timesheet_date {
+  width: 100%;
+  height: 160px;
+  background: #fff;
+  border-radius: 14px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.timesheet_date_title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: #000;
+  margin: 16px 24px;
+}
+
+.timesheet_date_button {
+  margin-top: 25px;
+}
+.timesheet_date_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.timesheet_button_box {
+  border-radius: 14px;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  padding: 26px 60px;
+}
+
+/* .button_timesheet {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+} */
+
+.button_timesheet_left,
+.button_timesheet_right {
+  display: flex;
+  gap: 20px;
+}
+
+.button_timesheet {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button_select {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.timesheet_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+.woml {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.button_select label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+.timesheet_table {
+  border-radius: 14px;
+  width: 100%;
+  background: #fff;
+  padding: 15px;
+}
+
+.timesheet_table_title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: #000;
+  padding-left: 16px;
+  padding-bottom: 10px;
+}
+
+.assigned_box {
+  width: 100%;
+  height: 200px;
+  border-radius: 14px;
+  background-color: #fff;
+  padding: 24px;
+}
+
+.assigned_box_title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+.assigned_button_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.legend_box {
+  /* max-width: 100%; */
+  width: 254px;
+  height: auto;
+  border-radius: 14px;
+  background-color: #fff;
+  padding: 24px;
+}
+
+.assigned_wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.legend_box_title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+.legend_button_title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42857;
+  letter-spacing: 0.04em;
+  color: #000;
+  margin-top: 5px;
+}
+
+.legend_button{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top:20px;
+}
+@media screen and (max-width: 600px) {
+  .timesheet_date_wrapper {
+    flex-direction: column;
+  }
+  .timesheet_date {
+    height: auto;
+  }
+  .timesheet_date_button {
+    margin: 0;
+  }
+
+  .timesheet_date_title {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1408px) {
+  .woml {
+    gap: 20px;
+  }
+  .timesheet_wrapper {
+    gap: 20px;
+    justify-content: center;
+  }
+  .assigned_box {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1358px) {
+  .woml {
+    gap: 10px;
+  }
+  .timesheet_wrapper {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .woml {
+    gap: 16px;
+  }
+  .timesheet_wrapper {
+    justify-content: center;
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .woml {
+    gap: 20px;
+  }
+  .timesheet_wrapper {
+    gap: 25px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .timesheet_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 702px) {
+  .assigned_wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .legend_box {
+    width: 100%;
+  }
+  .legend_box_title {
+    text-align: center;
+    font-size: 15px;
+  }
+  .assigned_box_title {
+    text-align: center;
+    font-size: 15px;
+  }
+  .assigned_button_wrapper {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+}

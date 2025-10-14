@@ -1,0 +1,149 @@
+.training_box_icon {
+  border-radius: 14px;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  padding: 16px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.project_icon .box_icon {
+  font-size: 24px;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.training_box_icon:active .box_icon {
+  color: #2f80ed;
+}
+
+.training_box_icon:hover {
+  cursor: pointer;
+  background-color: #2f80ed;
+}
+
+.training_box_icon:hover .box_icon {
+  color: white;
+}
+.training_box_icon:hover .project_icon_title {
+  color: white;
+}
+
+.training_box_icon:active {
+  background-color: #1c60b3;
+}
+
+.training_box {
+  background: #fff;
+  width: 100%;
+  height: 160px;
+  border-radius: 14px;
+}
+
+.training_box_title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: #000;
+  margin: 14px 24px;
+}
+.training_checkbox {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.training_date {
+  width: 184px;
+}
+
+.training_wrapper {
+  display: flex;
+  margin-left: 24px;
+  gap: 25px;
+  align-items: center;
+}
+
+.training_select {
+  width: 184px;
+}
+
+.training_border {
+  border: 2px solid #d1d1d6;
+  border-radius: 14px;
+  width: 216px;
+  height: 72px;
+}
+
+.training_border_title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #2f80ed;
+  padding-top: 8px;
+}
+
+.training_border_description {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #000;
+  text-align: center;
+}
+@media screen and (max-width: 1540px) {
+  .training_wrapper {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1518px) {
+  .training_wrapper {
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 1474px) {
+  .training_wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 10px;
+  }
+
+  .training_box {
+    height: auto;
+    
+  }
+
+  .training_checkbox {
+    flex: 1 1 170px; 
+    min-width: 170px;
+  }
+
+  .training_date,
+  .training_select {
+    width: 100%;
+  }
+
+  .training_border {
+    width: 220px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 471px) {
+  .training_wrapper {
+    margin: 15px;
+  }
+
+  .training_box_title {
+    font-size: 16px;
+  }
+    
+}

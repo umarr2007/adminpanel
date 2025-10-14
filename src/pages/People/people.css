@@ -1,0 +1,303 @@
+.people_box {
+  border-radius: 14px;
+  width: 215px;
+  height: 116px;
+  background: #fff;
+  margin-top: 20px;
+}
+
+.people_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.box_icon {
+  font-size: 48px !important;
+  color: grey;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.input_title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+.people_box_wrapper {
+  display: flex;
+  gap: 16px;
+}
+
+.people_box_title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.71429;
+  letter-spacing: 0.01em;
+  color: #000;
+  text-align: center;
+  margin-top: 5px;
+
+}
+.people_box:hover .people_box_title {
+  color: white;
+}
+
+.people_box:hover {
+  cursor: pointer;
+  background-color: #2f80ed;
+}
+
+.people_box:hover .box_icon {
+  color: white;
+}
+
+.people_box:active {
+  background-color: #1c60b3;
+}
+
+.people_box:active .search_icon {
+  color: #fff;
+}
+
+.section_top_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 16px;
+  
+}
+
+.people_box_wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.inputs_box {
+  border-radius: 14px;
+  width: 100%;
+  /* width: 1128px; */
+  background: #fff;
+  padding: 30px;
+  height: auto;
+}
+
+.checkbox_label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+.user_select {
+  margin-top: 18px;
+}
+
+/* .input_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: start;
+} */
+
+.input_wrapper {
+  display: flex;
+  gap: 20px;
+  /* align-items: flex-start; */
+}
+
+.input_left,
+.input_right {
+  flex: 1;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* gap: 18px; */
+}
+
+.input_name {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* .input_name {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 80px;
+} */
+
+
+/* 
+.label_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+.input_left {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input_right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* .input_name {
+  display: flex;
+  flex-direction: column;
+  
+} */
+
+.about_me {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.input_label {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+.radio_label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+.user_select {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.checkboxes{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.label_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.inputs_checkbox{
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.radio_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.edu {
+  display: flex;
+  flex-direction: column;
+}
+
+.edu_wrapper {
+  display: flex;
+  gap: 12px;
+}
+
+.bottom_wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 10px 20px; 
+  margin-top: 20px;
+}
+
+.bottom_left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bottom_title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.box_button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  gap: 12px;
+}
+@media (max-width: 1350px) {
+  .inputs_box {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .input_wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .bottom_wrapper {
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+  .box_button {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 876px) {
+  .people_box_wrapper {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 438px) {
+  .people_box_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .checkboxes {
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  }
+
+@media screen and (max-width: 752px) {
+  .input_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .bottom_title {
+    font-size: 12px;
+  }
+}

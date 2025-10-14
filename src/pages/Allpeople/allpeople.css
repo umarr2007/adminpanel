@@ -1,0 +1,298 @@
+.active_people_wrapper {
+  border-radius: 14px;
+  /* max-width: 1128px; */
+  width: auto;
+  height: 212px;
+  background: #fff;
+}
+
+.active_people_title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+.active_people_text {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  align-items: center;
+}
+.active_people_btn {
+  border: 2px solid #2f80ed;
+  border-radius: 30px;
+  width: 159px;
+  height: 36px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2f80ed;
+  background: #fff;
+  cursor: pointer;
+}
+
+.active_people_btn:hover {
+  background: #2f80ed;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(47, 128, 237, 0.4);
+  transform: scale(1.03);
+}
+
+.active_people_btn:active {
+  background: #2f80ed;
+  color: #fff;
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.custom-table {
+  /* max-width: 1128px; */
+  width: 100%;
+}
+
+.custom-table thead {
+  background-color: #d9d9dd;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 10px;
+  height: 32px;
+}
+
+.table-cell {
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+.table-number {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #000;
+}
+
+.allpeople_box {
+  border-radius: 14px;
+  max-width: 248px;
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+
+.tables {
+  border-radius: 14px;
+  /* max-width: 862px; */
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+
+.allpeople_box_title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: #000;
+  padding-left: 24px;
+  padding-top: 24px;
+}
+
+.filter_subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.16667;
+  letter-spacing: 0.01em;
+  color: #000;
+  padding-left: 24px;
+  margin-bottom: 14px;
+}
+
+.filter_section {
+  margin-top: 20px;
+}
+
+.checkbox_text {
+  padding-top: 10px;
+}
+
+.checkbox_item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+  padding-left: 24px;
+}
+.mycheckbox {
+  border: 1px solid #4f4f4f;
+  width: 24px;
+  height: 24px;
+}
+
+.label_text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.01em;
+  color: #4f4f4f;
+}
+.employee-table-container {
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.employee-title {
+  padding-left: 24px;
+  padding-top: 24px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.employee-table {
+  width: 100%;
+  /* max-width: 862px; */
+  background: #fff;
+}
+
+.employee-th,
+.employee-td {
+  padding: 15px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.employee-tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.employee-tr:hover {
+  background-color: #f1f1f1;
+}
+
+.all_wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+@media screen and (max-width: 415px) {
+  .active_people_title {
+    font-size: 16px;
+  }
+
+  .active_people_text {
+    padding: 16px;
+  }
+  .active_people_btn {
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .active_people_title {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1008px) {
+  .table-cell {
+    font-size: 10px;
+  }
+
+  .table-number {
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  /* .table-cell {
+    padding: 6px;
+    font-size: 10px;
+  } */
+
+  .table-number {
+    font-size: 11px;
+    /* padding: 6px; */
+  }
+  .custom-table th,
+  .custom-table td {
+    padding: 2px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .employee-th,
+  .employee-td {
+    padding: 11px;
+    font-size: 12px;
+  }
+}
+
+
+
+@media screen and (max-width: 1094px) {
+  .employee-th,
+  .employee-td {
+    padding: 7px;
+  }
+  .label_text {
+    font-size: 11px;
+  }
+
+  .mycheckbox {
+    width: 20px;
+    height: 20px;
+  }
+
+  .filter_subtitle {
+    font-size: 12px;
+  }
+  
+}
+
+@media screen and (max-width: 1010px) {
+  .employee-th,
+  .employee-td {
+    padding: 6px;
+  }
+  
+}
+
+@media screen and (max-width: 988px) {
+  .all_wrapper {
+    flex-direction: column;
+  }
+  
+  .allpeople_box {
+    max-width: 100%;
+  }
+  .checkbox_item{
+    display: flex;
+    justify-content: center;
+  }
+  .filter_subtitle {
+    text-align: center;
+  }
+  
+  .allpeople_box_title {
+    text-align: center;
+  }
+
+  .employee-td,
+  .employee-th {
+    font-size: 13px;
+  }
+  
+  
+}

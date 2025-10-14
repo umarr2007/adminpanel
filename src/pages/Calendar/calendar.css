@@ -1,0 +1,203 @@
+.calendar_box {
+  border-radius: 14px;
+  width: 100%;
+  background: #fff;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+
+.react-calendar {
+  width: 100% !important;
+  height: 250px !important; /* yoki senga yoqqan balandlik */
+}
+
+.react-calendar__month-view {
+  height: 100%;
+}
+
+
+.year-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  padding: 20px;
+  place-items: center;
+}
+
+.calendar_box_title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: #000;
+  margin: 16px 24px;
+}
+
+.calendar-card {
+  background: #fff;
+  border: 1px solid #e4e4e4;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  max-width: 320px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.calendar-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.days-info {
+  margin-top: 8px;
+  padding-top: 6px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.days-info p {
+  margin: 2px 0;
+}
+
+.days-info .non-working {
+  color: #e74c3c;
+}
+
+.react-calendar {
+  width: 100% !important;
+  max-width: 280px;
+  border: none !important;
+  font-size: 13px;
+}
+
+/* .react-calendar__month-view__days__day--neighboringMonth {
+  display: none !important;
+} */
+
+.calendar_select {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 15px 24px;
+}
+
+.select_branch {
+  width: 184px;
+  height: 58px;
+}
+
+.select_date {
+  width: 184px;
+  height: 58px;
+}
+
+.working {
+  border: 2px solid #2f80ed;
+  border-radius: 14px;
+  background: #fff;
+  width: 100%;
+  max-width: 250px;
+  aspect-ratio: 2 / 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.working_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.working_left,
+.working_right {
+  flex: 1;
+  text-align: center;
+}
+
+.working_title {
+  font-weight: 600;
+  font-size: clamp(20px, 3vw, 34px);
+  color: #000;
+  margin: 0;
+}
+
+.working_description {
+  font-weight: 600;
+  font-size: clamp(10px, 1.5vw, 12px);
+  color: #000;
+  padding-top: 12px;
+}
+
+.working_line {
+  border: 1.5px solid #2f80ed;
+  height: 70%;
+  width: 0;
+  margin: 0 8px;
+}
+
+.working_right_title {
+  font-weight: 600;
+  font-size: clamp(20px, 3vw, 34px);
+  color: #eb5757;
+  margin: 0;
+}
+
+.working_right_description {
+  font-weight: 600;
+  font-size: clamp(10px, 1.5vw, 12px);
+  color: #eb5757;
+  padding-top: 12px;
+}
+
+.calendar_select_wrapper{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+@media (max-width: 738px) {
+  .calendar_select_wrapper{
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1361px) {
+  .year-grid {
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+  }
+  .days-info {
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+}
+
+@media screen and (max-width: 1105px) {
+  .year-grid {
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+  }
+  .calendar_box_title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 602px) {
+  .year-grid {
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+  }
+}

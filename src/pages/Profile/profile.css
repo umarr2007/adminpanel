@@ -1,0 +1,265 @@
+.profile_box {
+  border-radius: 14px;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.profile_checkbox {
+  display: flex;
+  flex-direction: column;
+  gap: 6px; /* label va input orasidagi masofa */
+  margin-left: 24px;
+  margin-bottom: 14px; 
+}
+
+.profile_input {
+  background: #f1f1f1;
+  height: 36px;
+  margin-bottom: 28px;
+  width: 100%;
+}
+
+.edit_icon {
+  color: #2f80ed;
+  transition: color 0.3s ease;
+  font-size: 22px;
+}
+.profile_edit {
+  border-radius: 3px;
+  width: 36px;
+  height: 36px;
+  background: #d6d5d5;
+  border: none;
+  cursor: pointer;
+}
+
+.profile_edit:hover {
+  background: #2f80ed;
+  cursor: pointer;
+}
+.profile_edit:hover .edit_icon {
+  color: #fff;
+}
+
+.profile_edit:hover {
+  background: #2f80ed;
+}
+
+.profile_edit:hover .edit_icon {
+  color: #fff;
+}
+
+.profile_edit:active {
+  background: #2569c4;
+}
+
+.profile_edit:active .edit_icon {
+  color: #fff;
+}
+
+.profile_checkbox label {
+  min-height: 15px;
+}
+
+.profile_img_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile_img {
+  width: 160px;
+  height: 160px;
+}
+
+.profile_bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile_checkbox {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile_left,
+.profile_right,
+.profile_bottom {
+  flex: 1;
+  min-width: 300px;
+}
+.profile_name {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #000;
+  margin-top: 15px;
+}
+
+.profile_position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #8e8e93;
+}
+
+.profile_button {
+  border-radius: 3px;
+  width: 36px;
+  height: 36px;
+  background: #f1f1f1;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.profile_button:hover {
+  background: #2f80ed;
+  cursor: pointer;
+}
+
+.profile_button:hover .profile_icon {
+  color: #fff;
+}
+
+.profile_button:active {
+  background: #2569c4;
+}
+
+.profile_button_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.profile_icon {
+  color: #2569c4;
+  font-size: 24px;
+}
+.profile_title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: #000;
+  margin: 0;
+}
+
+.profile_text {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 24px 16px;
+}
+
+.practice_wrapper {
+  display: flex;
+  gap: 16px;
+}
+
+.detail_box {
+  border-radius: 14px;
+  width: 224px;
+  height: 150px;
+  background: #f8f8f8;
+  margin-top: 20px;
+}
+
+.detail_icon {
+  color: #2569c4;
+  font-size: 24px;
+}
+
+.detail_wrapper {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 40px;
+  gap: 20px;
+}
+
+.detail_title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42857;
+  letter-spacing: 0.04em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #333;
+  cursor: pointer;
+}
+
+.profile_wrapper {
+  display: flex;
+  gap: 35px;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1301px) {
+  .profile_wrapper {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 1243px) {
+  .profile_wrapper {
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 1220px) {
+  .profile_wrapper {
+    flex-direction: column-reverse;
+  }
+  .profile_text {
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .profile-card {
+    padding: 12px;
+  }
+
+  .profile-header {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+
+  .filter-select {
+    width: 100%;
+  }
+
+  .profile-table .ant-table {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 394px) {
+  .profile_wrapper {
+    flex-direction: column-reverse;
+  }
+  .practice_wrapper {
+    flex-direction: column;
+  }
+  .profile_box {
+    padding: 0;
+  }
+  .profile_checkbox {
+    margin: 20px;
+  }
+}
+

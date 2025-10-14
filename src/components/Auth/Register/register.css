@@ -1,0 +1,95 @@
+.login_title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.17647;
+  text-align: center;
+  color: #000;
+}
+
+.login_description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #000;
+}
+
+.login_texts {
+  margin-top: 150px;
+}
+
+.email_input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.email_input label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+.password_input label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+.password_input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.password_description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.01em;
+  color: #8e8e93;
+  margin-top: 12px;
+}
+
+.forgot {
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration: underline;
+  text-align: center;
+  color: #8e8e93;
+  cursor: pointer;
+  margin-top: 13px;
+}
+
+/* .email_error {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.01em;
+  color: red;
+}
+
+.password_error {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.01em;
+  color: red;
+} */
