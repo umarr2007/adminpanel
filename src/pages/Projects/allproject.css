@@ -27,6 +27,10 @@
   gap: 6px;
 }
 
+
+.project_table td{
+  cursor: pointer;
+}
 .status_wrapper {
   display: flex;
   align-items: center;

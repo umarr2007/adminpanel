@@ -207,6 +207,9 @@
   display: flex;
   justify-content: space-between;
 }
+.profile-table .ant-table td{
+  cursor: pointer;
+}
 
 @media screen and (max-width: 1301px) {
   .profile_wrapper {

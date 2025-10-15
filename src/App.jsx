@@ -16,6 +16,8 @@ import Feedback from "./pages/Training/Feedback";
 import Quiz from "./pages/Training/Quiz";
 import Registration from "./pages/Training/Registration";
 import Timesheet from "./pages/Timesheet/Timesheet";
+import Admin from "./pages/Admin/Admin";
+import Help from "./pages/Help/Help";
 
 function App() {
   return (
@@ -52,6 +54,11 @@ function App() {
         <Route path="/quiz" element={<Quiz />} />
         <Route path="/registration" element={<Registration />} />
         <Route path="/timesheet" element={<Timesheet />} />
+        <Route path="/admin" element={<Admin />} />
+        <Route path="/help" element={<Help />} />
+
+
+
       </Routes>
     </div>
   );

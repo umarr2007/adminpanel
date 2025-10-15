@@ -1,12 +1,13 @@
 .admin_box {
-  width: 100%;
-  height: 470px;
-  border-radius: 14px;
-  background-color: #fff;
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 100%;
+    height: 470px;
+    border-radius: 14px;
+    background-color: #fff;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .admin_placeholder {
@@ -16,8 +17,9 @@
   color: #555;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 6px;
   opacity: 0.9;
+  
 }
 
 .dot {
@@ -62,8 +64,10 @@
   }
 }
 
+
 @media screen and (max-width: 600px) {
   .admin_placeholder {
     font-size: 40px;
   }
+    
 }
